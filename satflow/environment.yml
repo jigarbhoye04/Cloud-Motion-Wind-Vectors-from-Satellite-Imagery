@@ -1,0 +1,33 @@
+name: satflow
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
+  - xarray
+  - netcdf4
+  - h5py
+  - zarr
+  - s3fs
+  - boto3
+  - rioxarray
+  - pyproj
+  - shapely
+  - pandas
+  - dask[complete]
+  - opencv-python
+  - kornia
+  - tqdm
+  - pyyaml
+  - einops
+  - cdsapi
+  - cfgrib
+  - eccodes
+  - matplotlib
+  - tensorboard
+  - rich
+  - pip

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env/
+
+# Conda environment
+env/
+.conda/
+
+# VSCode
+.vscode/
+
+# Data folders
+data/raw/
+data/interim/
+data/labels/

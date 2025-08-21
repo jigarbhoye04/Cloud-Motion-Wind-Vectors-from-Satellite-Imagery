@@ -1,0 +1,10 @@
+# Training configuration for PWC-Net
+model: pwcnet
+input: data/interim/pairs
+labels: data/labels/pseudo
+output: outputs/pwcnet
+training:
+  epochs: 50
+  batch_size: 8
+  lr: 1e-4
+# TODO: Add optimizer settings, checkpoints

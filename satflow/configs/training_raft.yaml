@@ -1,0 +1,10 @@
+# Training configuration for RAFT
+model: raft
+input: data/interim/pairs
+labels: data/labels/pseudo
+output: outputs/raft
+training:
+  epochs: 50
+  batch_size: 4
+  lr: 1e-5
+# TODO: Add optimizer settings, schedulers

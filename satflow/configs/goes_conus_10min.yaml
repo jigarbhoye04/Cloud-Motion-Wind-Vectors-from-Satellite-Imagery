@@ -1,0 +1,8 @@
+# GOES CONUS 10-minute configuration
+source: goes
+satellite: conus
+interval: 10m
+bands:
+  - MCMIPC
+  - ACHA
+# TODO: Add paths, date ranges, AWS bucket info

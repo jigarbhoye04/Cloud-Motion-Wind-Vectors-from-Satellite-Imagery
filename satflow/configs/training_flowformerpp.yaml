@@ -1,0 +1,10 @@
+# Training configuration for FlowFormer++
+model: flowformerpp
+input: data/interim/pairs
+labels: data/labels/pseudo
+output: outputs/flowformerpp
+training:
+  epochs: 50
+  batch_size: 2
+  lr: 1e-5
+# TODO: Add optimizer and transformer settings
